@@ -1,0 +1,273 @@
+body {
+    font-family: sans-serif;
+}
+
+nav{
+    font-family: sans-serif;
+}
+
+#imgPrincipal{
+    width: 40%;
+    height: 40%;
+    text-align: right;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #241c9c;
+    line-height: 20px;
+    overflow: auto;
+}
+
+li{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: aliceblue;
+}
+
+a:hover{
+    background: #f9a91a;
+    color: #000;
+}
+
+#caja1{
+    border: 10px solid rgb(16, 8, 129);
+    padding: 30px;
+}
+
+#bandanas{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#placa{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#correa{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#correare{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+/*selector de tipo class*/
+.titulo{
+    color:rgb(158, 68, 194);
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+#logo{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*carrusel*/
+
+#conteItemCarrusel{
+    border: 5px solid black;
+    width: 70%;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.itemcarrusel{
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+  
+a{
+    text-decoration: none;
+}
+
+i{
+    color: black;
+}
+
+#contePuntos{
+    background-color: aquamarine ;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 20px;
+}
+#contePuntos>a{
+    font-size: 1.5em;
+}
+img{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+/*footer*/
+.pie-pagina{
+    width: 100%;
+    background-color: red;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+.pie-pagina .grupo-2{
+    background-color: rgb(247, 90, 90);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+#foto-footer{
+    width: 100%;
+    height: 100px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+#nuestra-empresa{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    color: black;
+}
+#titulo-1{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    color: #241c9c;
+    text-align: center;
+}
+
+#mision{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    color: black;
+}
+
+#titulo-2{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    color: #241c9c;
+    text-align: center;
+}
+
+#vision{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    color: black;
+}
+
+#titulo-3{
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    color: #241c9c;
+    text-align: center;
+}
+
+
+#video{
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+}
