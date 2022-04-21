@@ -2,73 +2,24 @@ body {
     font-family: sans-serif;
 }
 
-nav{
-    font-family: sans-serif;
+.navbar{
+    background-color: blue !important;
+}
+.active:hover{
+    color: yellow !important;
 }
 
-#imgPrincipal{
-    width: 40%;
-    height: 40%;
-    text-align: right;
-}
-
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    background: #241c9c;
-    line-height: 20px;
-    overflow: auto;
-}
-
-li{
-    width: 100px;
-    display: inline-block;
-    text-align: center;
-}
-
-a{
-    text-decoration: none;
-    display: block;
-    color: aliceblue;
-}
-
-a:hover{
-    background: #f9a91a;
-    color: #000;
-}
-
-#caja1{
-    border: 10px solid rgb(16, 8, 129);
-    padding: 30px;
-}
-
-#bandanas{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-}
-
-#placa{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-}
-
-#correa{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-}
-
-#correare{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-}
-
-/*selector de tipo class*/
-.titulo{
+h1{
     color:rgb(158, 68, 194);
     font-family: cursive;
     font-size: 40px;
     text-align: center;
+    
+}
+
+#imgPrincipal{
+    width: 10%;
+    height: 10%;
 }
 
 #logo{
@@ -80,67 +31,44 @@ a:hover{
 
 /*carrusel*/
 
-#conteItemCarrusel{
-    border: 5px solid black;
-    width: 70%;
-    height: 300px;
-    overflow: hidden;
-    text-align: center;
+.carousel-item{
+    height: 350px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 20px;
 }
 
-.itemcarrusel{
-    height: 100%;
-    position: relative;
+/*card*/
+
+.card{
+    top: 20px;
+    border-color: black;
     text-align: center;
+    margin-bottom: 40px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr ;
+    margin-left: 20px;
 }
 
-.tarjetaCarrusel{
-    height: 100%;
-    padding: 10px;
-    text-align: center;
-    
+.card-img-top{
+    width: 286px;
+    height: 250px;
 }
 
-.flechasCarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
+.gallery{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-  
-a{
-    text-decoration: none;
-}
-
-i{
-    color: black;
-}
-
-#contePuntos{
-    background-color: aquamarine ;
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
-    height: 20px;
-}
-#contePuntos>a{
-    font-size: 1.5em;
-}
-img{
-    
-    width: 100%;
-    height: 100%;
+    flex-wrap: wrap;
+    margin-top: 40px;
     
 }
-
-
-
 /*footer*/
 .pie-pagina{
+    margin-top: 100px;
     width: 100%;
     background-color: red;
 }
@@ -217,20 +145,13 @@ img{
     }
 }
 
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-gap: 5px;
-}
 
-.gallery img{
-    width: 100%;
-}
 
 #nuestra-empresa{
     font-family: Arial, Helvetica, sans-serif ;
     font-size: 15px;
     color: black;
+    margin-top: 20px;
 }
 #titulo-1{
     font-family: Arial, Helvetica, sans-serif ;
